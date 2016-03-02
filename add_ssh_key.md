@@ -1,4 +1,4 @@
-# add ssh key 
+﻿# add ssh key  
 - ssh-keygen -t rsa -C "you comment" 可以采用默认设置enter即可
 - cat ~/.ssh/id_rsa.pub 然后拷贝
 - 将拷贝内容复制到 github账号主页-右上角setting-SSH keys-New SSH key-第二个输入框中，然后起一个名字
