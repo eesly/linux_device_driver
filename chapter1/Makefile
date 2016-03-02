@@ -7,3 +7,5 @@ default:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
 endif
 
+clean:
+	$(MAKE) -C $(KERNELDIR) M=$(PWD) clean
